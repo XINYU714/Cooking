@@ -9,12 +9,17 @@ const gameStart = {
  create: function ()
 {
     this.mainBg=this.add.tileSprite(vw/2,vh/2,vw,vh,'mainBg');
+  
+    /*跳轉頁面*/
     let mainBtn = this.add.image(vw / 2, vh / 2, 'mainBtn');
         
         mainBtn.setInteractive();
-        mainBtn.on('pointerdown', () => this.scene.start('gamePlay'))  
+        mainBtn.on('pointerdown', () => this.scene.start('gamePlay'))
+    
 },
+
  update: function()
 {
+
 }
 }

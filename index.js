@@ -22,7 +22,7 @@ const config=
             gravity: {
                 y: 550
             },
-            // debug: true,
+            debug: true,
         },
     },
 }
